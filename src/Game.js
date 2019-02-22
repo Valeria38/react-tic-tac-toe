@@ -20,6 +20,7 @@ class Game extends React.Component{
       currentTurn: 1
     }
     this.markCell = this.markCell.bind(this);
+    this.restartGame = this.restartGame.bind(this);
   }
 
   fillCells(value) {
@@ -65,13 +66,11 @@ class Game extends React.Component{
   }
 
   restartGame() {
-    this.setState(prevState => {
-      return {
+    this.setState({
         cells: Array(9).fill(null),
         winner: null,
         currentTurn: 1
-      }
-    })
+      })
   }
 
   render() {
@@ -91,7 +90,7 @@ class Game extends React.Component{
       <div>
         <div className="current-turn" style={stylesForCurrentTurnMessage}>
           The <span> { (currentTurn % 2 === 1 ) ? `first (X)`: `second (O)` }
-          </span> players turn
+          </span> player&#39;s turn
         </div>
         <div className="field">
           { cells.map((cell, index) => (
