@@ -1,8 +1,7 @@
 .App {
   padding: 0 20px;
-  font-family: 'Gloria Hallelujah', cursive;
-}
-.game {
+  font-family: 'Gloria Hallelujah', cursive;  
+  width: 428px;
   margin: auto;
 }
 .field {

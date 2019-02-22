@@ -21,6 +21,7 @@ class Game extends React.Component{
     }
     this.markCell = this.markCell.bind(this);
   }
+
   fillCells(value) {
     return value || '';
   }
@@ -87,7 +88,7 @@ class Game extends React.Component{
     winner && ( stylesForCurrentTurnMessage.display = "none" );
 
     return (
-      <div className="game">
+      <div>
         <div className="current-turn" style={stylesForCurrentTurnMessage}>
           The <span> { (currentTurn % 2 === 1 ) ? `first (X)`: `second (O)` }
           </span> players turn
