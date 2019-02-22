@@ -1,4 +1,4 @@
-##Tic tac toe
+## Tic tac toe
 ***
 [Preview](https://valeria38.github.io/react-tic-tac-toe/)  
 [Pull request](https://github.com/Valeria38/react-tic-tac-toe/pull/1)
