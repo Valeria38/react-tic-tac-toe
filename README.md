@@ -1,16 +1,9 @@
 #Tic tac toe
 ***
-+[Preview](https://valeria38.github.io/react-tic-tac-toe/)
-
-+[Pull request](https://github.com/Valeria38/react-tic-tac-toe/pull/1)
-***
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-<<<<<<< HEAD
-=======
-
-[Preview](https://valeria38.github.io/react-tic-tac-toe/)
+[Preview](https://valeria38.github.io/react-tic-tac-toe/)  
 [Pull request](https://github.com/Valeria38/react-tic-tac-toe/pull/1)
->>>>>>> 18e644d11d38fba3a980809a8ee5ce91b72adfc8
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
