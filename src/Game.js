@@ -89,19 +89,17 @@ class Game extends React.Component{
     return (
       <div className="game">
         <div className="current-turn" style={stylesForCurrentTurnMessage}>
-          The <span>
-          { (currentTurn % 2 === 1 ) ? `first (X)`: `second (O)` }
-          </span> player's turn
+          The <span> { (currentTurn % 2 === 1 ) ? `first (X)`: `second (O)` }
+          </span> players turn
         </div>
         <div className="field">
           { cells.map((cell, index) => (
             <div 
-              key={index} 
-              className="field__cell" 
-              onClick={() => this.markCell(index)}
+            key={index} 
+            className="field__cell" 
+            onClick={() => this.markCell(index)}
             >{ this.fillCells(cell) }</div>
           )) }
-          
         </div>
         <div className="result" style={stylesForWinMessage}>
           { winner !== 'Draw' ?
