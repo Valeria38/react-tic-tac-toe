@@ -1,3 +1,7 @@
+## Tic tac toe
+* [Preview](https://valeria38.github.io/react-tic-tac-toe/)  
+* [Pull request](https://github.com/Valeria38/react-tic-tac-toe/pull/1)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
