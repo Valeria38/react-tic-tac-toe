@@ -28,11 +28,11 @@ class Game extends React.Component{
   }
 
   markCell(index) {
-    const { winner, currentTurn, cells } = this.state;
+    const { winner, currentTurn } = this.state;
+    const cells = [...this.state.cells];
     let newWinner;
 
-    if (cells[index] !== null) return;
-    if (winner) return;
+    if (cells[index] !== null || winner) return;
 
     const currentSign = currentTurn % 2 === 1 ? 'X' : 'O';
     cells[index] = currentSign;
